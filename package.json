@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "watch": "snap run hugo server -w",
+        "publish": "snap run hugo -D"
+    },
+    "dependencies": {}
+}
