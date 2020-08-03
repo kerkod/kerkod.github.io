@@ -3,4 +3,4 @@ title = "Contact"
 slug = "contact"
 +++
 
-todo fr
+Intéressé ? Travaillons ensemble !
