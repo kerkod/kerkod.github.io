@@ -2,7 +2,7 @@
   <footer class="footer">
     <section class="container">
       {{ with .Site.Params.footercontent | safeHTML }}
-        <p>{{ . }} - <a href="/mentions-legales">Mentions légales</a></p>
+        <p>{{ . }} - <a href="/mentions-legales">Mentions légales</a> - Ce site est <a href="/green-it">vert</a></p>
       {{ end }}
       {{ if not .Site.Params.hideCopyright }}
         ©

@@ -1,9 +1,9 @@
 baseurl = "http://www.example.com"
-title = "Le Petit Codeur Nantais"
+title = "Codethic.fr"
 
 theme = "hugo-coder"
 
-languagecode = "en"
+languagecode = "fr"
 defaultcontentlanguage = "fr"
 
 paginate = 20
@@ -16,15 +16,16 @@ pygmentscodefencesguesssyntax = true
 #disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "François Le Quéméner"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Codeur & CTO indépendant"
-    avatarurl = "images/avatar-flq.jpg"
+    author = "Codethic"
+    description = "Développement backend, DevOps et CTO à Nantes et en remote"
+    keywords = "développement,backend,devops,cto,expert,senior,nantes,remote,php,laravel,python,greenit,web,api,indépendant,freelance"
+    title = "Applications web 🧠 intelligentes et 🤗 intelligibles"
+    info = "CTO + développement backend + DevOps"
+    # avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "©2020 Le Petit Codeur Nantais EURL"
+    footercontent = "©2020 Codethic EURL"
 
-    dateformat = "2 January 2006"
+    dateformat = "January 2006"
 
     hideFooter = false
     hideCredits = true
@@ -101,62 +102,57 @@ pygmentscodefencesguesssyntax = true
 
 
 [languages]
-    [languages.en]
-        languagename = "En"
-
-        [languages.en.menu]
-
-            [[languages.en.menu.main]]
-            name = "Competences"
-            weight = 2
-            url = "competences"
-
-            #[[languages.en.menu.main]]
-            #name = "Blog"
-            #weight = 2
-            #url = "posts/"
-
-            [[languages.en.menu.main]]
-            name = "Who am I"
-            weight = 1
-            url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
+#    [languages.en]
+#        languagename = "EN"
+#
+#        [languages.en.menu]
+#
+#            [[languages.en.menu.main]]
+#            name = "Competences"
+#            weight = 2
+#            url = "competences"
+#
+#            #[[languages.en.menu.main]]
+#            #name = "Blog"
+#            #weight = 2
+#            #url = "posts/"
+#
+#            [[languages.en.menu.main]]
+#            name = "Who am I"
+#            weight = 1
+#            url = "about/"
+#
+#            [[languages.en.menu.main]]
+#            name = "Contact me"
+#            weight = 5
+#            url = "contact/"
 
     [languages.fr]
-        languagename = "Fr"
+        languagename = "FR"
 
         [languages.fr.menu]
 
             [[languages.fr.menu.main]]
-            name = "Qui suis-je"
-            weight = 1
+            name = "A propos"
+            weight = 10
             url = "about/"
 
             [[languages.fr.menu.main]]
-            name = "Compétences"
-            weight = 2
-            url = "competences/"
-
-            [[languages.fr.menu.main]]
             name = "Services"
-            weight = 3
+            weight = 2
             url = "services/"
 
             [[languages.fr.menu.main]]
-            name = "Portfolio"
-            weight = 4
-            url = "portfolio/"
+            name = "Réalisations"
+            weight = 3
+            url = "realisations/"
 
-            #[[languages.fr.menu.main]]
-            #name = "Blog"
-            #weight = 3
-            #url = "posts/"
+#            [[languages.fr.menu.main]]
+#            name = "Blog"
+#            weight = 4
+#            url = "posts/"
 
             [[languages.fr.menu.main]]
             name = "Contact"
-            weight = 5
+            weight = 99
             url = "contact/"

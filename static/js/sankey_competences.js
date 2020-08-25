@@ -16,7 +16,7 @@ var option = {
     "name": "Développement",
     "label": {
       "show": true,
-      "color": "#333",
+      "color": "#FFF",
       "fontWeight": "bold"
     }
   },
@@ -24,7 +24,7 @@ var option = {
     "name": "DevOps",
     "label": {
       "show": true,
-      "color": "#333",
+      "color": "#FFF",
       "fontWeight": "bold"
     }
   },
@@ -32,7 +32,7 @@ var option = {
     "name": "Algorithmie",
     "label": {
       "show": true,
-      "color": "#333",
+      "color": "#FFF",
       "fontWeight": "bold"
     }
   },
@@ -40,7 +40,7 @@ var option = {
     "name": "Méthodologie",
     "label": {
       "show": true,
-      "color": "#333",
+      "color": "#FFF",
       "fontWeight": "bold"
     }
   },
@@ -48,7 +48,7 @@ var option = {
     "name": "Expertise",
     "label": {
       "show": true,
-      "color": "#333",
+      "color": "#FFF",
       "fontWeight": "bold"
     }
   },
@@ -56,189 +56,189 @@ var option = {
     "name": "PHP7 / Laravel",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "PHPUnit",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Python / Flask",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Java / Spring Boot",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "PostgreSQL",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "PostGIS",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "OSRM",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "MySQL / MariaDB",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "NodeJS / Express",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Programmation par contrainte / Choco Solver",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "API REST OpenAPI",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Cypress",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Microservices",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Wordpress",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Magento",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Ansible",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Jenkins",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Heroku",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "OVH Public Cloud",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Docker Swarm",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Linux / Debian",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Datadog",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Websocket / socket.io",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "RabbitMQ",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Eventstorming",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Git / Git flow",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   },
   {
     "name": "Agile / Kanban / Scrum",
     "label": {
       "show": true,
-      "color": "#333"
+      "color": "#FFF"
     }
   }
 ]
