@@ -1,9 +1,9 @@
 +++
 title = "Bonjour, je suis François"
-slug = "about"
+slug = "a-propos"
 +++
 
-Professionnel spécialisé dans le web depuis 11 ans, j'ai créé l'EURL Codethic pour vous partager mon expérience et mes compétences au service de vos projets.
+Professionnel spécialisé dans le web depuis 11 ans, j'ai créé la société Codethic pour vous partager mon [expérience]({{< ref "realisations" >}}) et mes [compétences]({{< ref "competences.md" >}}) au service de vos projets.
 
 ## Ingénieur art et métier 
 Ingénieur **ICAM Nantes 2009**, je me suis spécialisé dans l'IT par passion. J'ai bien sûr gardé dans ma boîte à outil toutes les connaissances et méthodologies applicable à un environnement industriel.

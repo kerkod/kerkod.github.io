@@ -19,7 +19,7 @@ pygmentscodefencesguesssyntax = true
     author = "Codethic"
     description = "Développement backend, DevOps et CTO à Nantes et en remote"
     keywords = "développement,backend,devops,cto,expert,senior,nantes,remote,php,laravel,python,greenit,web,api,indépendant,freelance"
-    title = "Applications web 🧠 intelligentes et 🤗 intelligibles"
+    title = "Développement de produits web intelligents et intelligibles"
     info = "CTO + développement backend + DevOps"
     # avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
@@ -135,7 +135,7 @@ pygmentscodefencesguesssyntax = true
             [[languages.fr.menu.main]]
             name = "A propos"
             weight = 10
-            url = "about/"
+            url = "a-propos/"
 
             [[languages.fr.menu.main]]
             name = "Services"

@@ -417,4 +417,41 @@ img.emoji {
   .footer a {
     color: #1565c0; }
 
+/**custom**/
+.content .about h1 {
+  font-size: 5rem;
+  line-height: 7rem; }
+
+@keyframes color_change {
+  from {
+    color: #1565c0;
+    text-shadow: 1px 1px 2px #1565c0; }
+  to {
+    color: #1565c0; } }
+
+.content .about .emphasis {
+  animation-name: color_change;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+.content .about form {
+  margin-top: 5rem; }
+  .content .about form select {
+    background-color: white;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+    height: 2em;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: center;
+    padding-right: 2rem;
+    margin: 0 0.5rem; }
+
 /*# sourceMappingURL=coder.css.map */

@@ -35,7 +35,7 @@ Certains projets sont, par nature, positifs : l’informatique peut être un for
 
      
 > **Bilan carbone et plans d’actions des transporteurs routier de marchandise** :
-> Lead développeur de l’application de ADEME Objectif CO2 (ASI, 2012)
+> Lead développeur de l’application de ADEME Objectif CO₂ (ASI, 2012)
 
 
 *Ce site est éco-conçu : utilisation d'un framwork de génération statique (Hugo), minimisation de la taille de chaque page (environ XX ko/page), hébergement dans un datacenter XXX*
