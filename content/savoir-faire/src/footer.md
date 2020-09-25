@@ -1,3 +1,0 @@
-## En savoir plus
-
-lala

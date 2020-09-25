@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "Codethic.fr"
+title = "FRAKETEK"
 
 theme = "hugo-coder"
 
@@ -16,14 +16,14 @@ pygmentscodefencesguesssyntax = true
 #disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Codethic"
+    author = "Fraketek"
     description = "Développement backend, DevOps et CTO à Nantes et en remote"
     keywords = "développement,backend,devops,cto,expert,senior,nantes,remote,php,laravel,python,greenit,web,api,indépendant,freelance"
     title = "Développement de produits web intelligents et intelligibles"
     info = "CTO + développement backend + DevOps"
     # avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "©2020 Codethic EURL"
+    footercontent = "©2020 FRAKETEK EURL"
 
     dateformat = "January 2006"
 
@@ -54,7 +54,7 @@ pygmentscodefencesguesssyntax = true
     custom_css = []
 
     # Custom JS
-    custom_js = []
+    custom_js = ['js/accordion.js']
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
@@ -132,25 +132,31 @@ pygmentscodefencesguesssyntax = true
 
         [languages.fr.menu]
 
-            [[languages.fr.menu.main]]
-            name = "A propos"
-            weight = 10
-            url = "a-propos/"
 
+            [[languages.fr.menu.main]]
+            name = "Startups"
+            weight = 1
+            url = "cto/"
+            
             [[languages.fr.menu.main]]
             name = "Services"
             weight = 2
             url = "services/"
 
             [[languages.fr.menu.main]]
-            name = "Réalisations"
+            name = "Portfolio"
             weight = 3
-            url = "realisations/"
+            url = "portfolio/"
 
 #            [[languages.fr.menu.main]]
 #            name = "Blog"
 #            weight = 4
 #            url = "posts/"
+
+            [[languages.fr.menu.main]]
+            name = "A propos"
+            weight = 10
+            url = "a-propos/"
 
             [[languages.fr.menu.main]]
             name = "Contact"

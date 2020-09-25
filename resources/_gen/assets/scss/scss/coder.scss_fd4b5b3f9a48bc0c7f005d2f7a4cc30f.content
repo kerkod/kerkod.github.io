@@ -20,7 +20,7 @@ body {
       line-height: 1.6em; } }
 a {
   font-weight: 300;
-  color: #1565c0;
+  color: cadetblue;
   text-decoration: none; }
   a:focus, a:hover {
     text-decoration: underline; }
@@ -261,7 +261,7 @@ img.emoji {
       font-family: Lato, Helvetica, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
-        color: #1565c0; }
+        color: cadetblue; }
 
 .centered {
   display: flex;
@@ -293,7 +293,7 @@ img.emoji {
           margin-right: 1.0rem;
           font-size: 1.6rem; }
           .centered .about ul li a:hover, .centered .about ul li a:focus {
-            color: #1565c0; }
+            color: cadetblue; }
           @media only screen and (max-width: 768px) {
             .centered .about ul li a {
               font-size: 1.4rem; } }
@@ -326,7 +326,7 @@ img.emoji {
     line-height: 6.0rem;
     color: #212121; }
   .navigation a:hover, .navigation a:focus {
-    color: #1565c0; }
+    color: cadetblue; }
   .navigation .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase; }
@@ -389,7 +389,7 @@ img.emoji {
         color: #212121;
         cursor: pointer; }
         .navigation .menu-button:hover, .navigation .menu-button:focus {
-          color: #1565c0; } }
+          color: cadetblue; } }
 .pagination {
   margin-top: 6.0rem;
   text-align: center;
@@ -415,28 +415,38 @@ img.emoji {
   line-height: 2.0rem;
   margin-bottom: 1.0rem; }
   .footer a {
-    color: #1565c0; }
+    color: cadetblue; }
 
 /**custom**/
 .content .about h1 {
   font-size: 5rem;
   line-height: 7rem; }
 
-@keyframes color_change {
-  from {
-    color: #1565c0;
-    text-shadow: 1px 1px 2px #1565c0; }
-  to {
-    color: #1565c0; } }
+@media only screen and (max-width: 600px) {
+  .content .about h1 {
+    font-size: 2.8rem;
+    line-height: 3rem; } }
 
 .content .about .emphasis {
-  animation-name: color_change;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: inherit; }
+  .content .about .emphasis::after {
+    content: '';
+    position: absolute;
+    bottom: -1.125rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    height: 1.5rem;
+    z-index: -1;
+    background-image: url("/images/underline.svg");
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .content .about form {
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  line-height: 4rem; }
   .content .about form select {
     background-color: white;
     border: 1px solid #CCC;
@@ -453,5 +463,26 @@ img.emoji {
     background-position-y: center;
     padding-right: 2rem;
     margin: 0 0.5rem; }
+  .content .about form input[type="submit"] {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+    height: 2em;
+    margin: 0 0.5rem; }
+
+@media only screen and (max-width: 600px) {
+  .content .about form {
+    line-height: 4rem; } }
+
+blockquote {
+  border-left: 5px solid cadetblue;
+  width: 70%;
+  min-width: 400px; }
 
 /*# sourceMappingURL=coder.css.map */

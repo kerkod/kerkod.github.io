@@ -3,13 +3,13 @@ title = "Mentions légales"
 slug = "mentions-legales"
 +++
 
-> Codethic EURL au capital de 1 500€
+> FRAKETEK EURL au capital de 5 000€
 >
 > RCS 823 093 208 Nantes
 >
 > Siège social : 42 rue de l'Ouest 44100 Nantes
 >
-> Contact: contact@stino.fr
+> Contact: bonjour@fraketek.fr
 
 ## Hébergement du site
 

@@ -3,7 +3,7 @@ title = "Travaillons ensemble !"
 slug = "contact"
 +++
 
-📨 [bonjour@ethicoder.fr](mailto:bonjour@ethicoder.fr)
+📨 [bonjour@fraketek.fr](mailto:bonjour@fraketek.fr)
 
 
 {{< rawhtml >}}
