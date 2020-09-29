@@ -3,7 +3,7 @@ title = "Bonjour, je suis François"
 slug = "a-propos"
 +++
 
-Ingénieur arts et métier (ICAM 2009) spécialisé dans le web depuis 11 ans, j'ai créé la société FRAKETEK pour vous partager mon [expérience]({{< ref "portfolio" >}}) et mes [compétences]({{< ref "competences.md" >}}) au service de vos projets.
+Ingénieur arts et métier (ICAM 2009) spécialisé dans le web depuis 11 ans, j'ai créé la société FRAKETEK pour mettre mes [expériences]({{< ref "portfolio" >}}) et [compétences]({{< ref "services" >}}) au service de vos projets.
 
 ## Professionnel éthique
 J’ai construit mon parcours avec un fil directeur : la **responsabilité sociétale**. La technique n’a de valeur que si elle est au service de l’homme et de l’environnement. C'est pourquoi je me suis intéressé très tôt au [GreenIT]({{< ref "greenit.md" >}}) (formation BCS 2013). Sensible aux problématiques environnementales, j’applique les règles d’éco-conception à tous les niveaux et pratique une veille régulière sur le sujet.

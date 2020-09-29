@@ -9,7 +9,7 @@ series = ["App"]
 
 **Description** : Valider une hypothèse métier en mettant en place rapidement un prototype. Itérations successives jusqu'à arriver à une valeur métier satisfaisante.
 
-**Management** : Pilotage d'un équipe de 2 développeurs Front/Back, **ateliers métiers** clients
+**Management** : Pilotage d'un équipe de développeurs Front/Back, **ateliers métiers** clients
 
 *** 
 
@@ -17,6 +17,7 @@ series = ["App"]
 - PHP7 / Laravel
 - PgSQL
 - Angular / Ionic
+- NodeJS / socket.io
 
 ![Ateliers métier](/images/ateliers.png "Ateliers métier")
 

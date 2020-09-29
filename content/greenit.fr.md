@@ -17,7 +17,7 @@ Le matériel IT (serveurs, postes clients, réseau & télécom) consomme beaucou
 
 Certains projets sont, par nature, positifs : l’informatique peut être un formidable levier pour créer des nouveaux usages, plus respectueux de l’homme et de son environnement.
 
-> Application d’un **tarif préférentiel** pour les projets à impact positif, entreprises à mission
+> Application d’un **tarif préférentiel** pour les projets à impact positif, entreprises à mission, ESUS, ESS, B Corp
 
 
 ## Je suis fier de contribuer à un monde meilleur

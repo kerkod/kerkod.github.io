@@ -3,9 +3,9 @@ title = "Services et compétences"
 slug = "services"
 +++
 
-## Domaines d'intervention
+Avec un savoir-faire de direction technique éprouvé, Fraketek vous accompagne de la réflexion initiale jusqu'à l'implémentation d'algorithmes pointus.
 
-Spécialisé dans les applications web à haute valeur ajoutée, Fraketek vous accompagne sur les périmètres suivants :
+## Domaines d'intervention
 - **Conception** : ateliers métier, dimensionnement du projet et de l'équipe
 - **Prototypage** : développement rapide d'un MVP en mode agile, itérations successives
 - **Industrialisation** : implémentation d'une architecture technique et serveur scalable et résiliente

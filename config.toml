@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "FRAKETEK"
+title = "KERKOD"
 
 theme = "hugo-coder"
 
@@ -16,16 +16,19 @@ pygmentscodefencesguesssyntax = true
 #disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Fraketek"
+    author = "Kerkod"
     description = "Développement backend, DevOps et CTO à Nantes et en remote"
     keywords = "développement,backend,devops,cto,expert,senior,nantes,remote,php,laravel,python,greenit,web,api,indépendant,freelance"
     title = "Développement de produits web intelligents et intelligibles"
     info = "CTO + développement backend + DevOps"
     # avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "©2020 FRAKETEK EURL"
+    footercontent = "©2020 KERKOD EURL"
 
     dateformat = "January 2006"
+
+    favicon_32 = "/images/favicon-k-32x32.png"
+    favicon_16 = "/images/favicon-k-16x16.png"
 
     hideFooter = false
     hideCredits = true
@@ -42,7 +45,7 @@ pygmentscodefencesguesssyntax = true
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorscheme = "light"
+    colorscheme = "auto"
 
     # Series see also post count
     maxSeeAlsoItems = 5

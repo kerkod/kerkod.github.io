@@ -1,5 +1,3 @@
-
-
 .content .about {
 
   h1 {
@@ -20,73 +18,49 @@
     color:black;
     font-weight: inherit;
 
+    // Underline with SVG
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: -1.125rem;
-      left: -0.5rem;
-      right: -0.5rem;
-      height: 1.5rem;
+    // &::after {
+    //   content: '';
+    //   position: absolute;
+    //   bottom: -1.125rem;
+    //   left: -0.5rem;
+    //   right: -0.5rem;
+    //   height: 1.5rem;
   
-      // Position the line behind the text so that
-      // it is still easily readable
-      z-index: -1;
+    //   // Position the line behind the text so that
+    //   // it is still easily readable
+    //   z-index: -1;
   
-      // The SVG is added as an SVG background image
-      background-image: url('/images/underline.svg');
-      background-repeat: no-repeat;
+    //   // The SVG is added as an SVG background image
+    //   background-image: url('/images/underline.svg');
+    //   background-repeat: no-repeat;
   
-      // This allows the SVG to flex in size to fit
-      // any length of word. If the word is short,
-      // the SVG will be stretched vertically, if it
-      // is long, the SVG will be stretched horizontally.
-      // The jagged nature of this particular SVG works
-      // with this transforming.
-      background-size: cover;
-    }
-  }
+    //   // This allows the SVG to flex in size to fit
+    //   // any length of word. If the word is short,
+    //   // the SVG will be stretched vertically, if it
+    //   // is long, the SVG will be stretched horizontally.
+    //   // The jagged nature of this particular SVG works
+    //   // with this transforming.
+    //   background-size: cover;
+    // }
 
+    //Smooth GIF animation as background
+    background-image: url(/images/title.gif);
+    filter: contrast(150%);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
 
-  form {
-
-    margin-top: 5rem;
-    line-height: 4rem;
-
-    select {
-      background-color: white;
-      border: 1px solid #CCC;
-      border-radius: 4px;
-      -moz-appearance:none; /* Firefox */
-      -webkit-appearance:none; /* Safari and Chrome */
-      appearance:none;
-      height: 2em;
-      background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
-      background-repeat: no-repeat;
-      background-position-x: 100%;
-      background-position-y: center;
-      padding-right: 2rem;
-      margin:0 0.5rem;
-    }
-
-
-    input[type="submit"] {
-      cursor: pointer;
-      background-color: white;
-      border: 1px solid #CCC;
-      border-radius: 4px;
-      -moz-appearance:none; /* Firefox */
-      -webkit-appearance:none; /* Safari and Chrome */
-      appearance:none;
-      height: 2em;
-      margin:0 0.5rem;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    form {
-      line-height: 4rem;
-    }
   }
   
+}
+
+body.colorscheme-dark {
+  .content .about {
+    .emphasis {
+      filter: invert(100%);
+    }
+  }
 }

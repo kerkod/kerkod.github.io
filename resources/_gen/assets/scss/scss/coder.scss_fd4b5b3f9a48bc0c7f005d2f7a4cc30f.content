@@ -431,54 +431,16 @@ img.emoji {
   position: relative;
   text-decoration: none;
   color: black;
-  font-weight: inherit; }
-  .content .about .emphasis::after {
-    content: '';
-    position: absolute;
-    bottom: -1.125rem;
-    left: -0.5rem;
-    right: -0.5rem;
-    height: 1.5rem;
-    z-index: -1;
-    background-image: url("/images/underline.svg");
-    background-repeat: no-repeat;
-    background-size: cover; }
+  font-weight: inherit;
+  background-image: url(/images/title.gif);
+  filter: contrast(150%);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text; }
 
-.content .about form {
-  margin-top: 5rem;
-  line-height: 4rem; }
-  .content .about form select {
-    background-color: white;
-    border: 1px solid #CCC;
-    border-radius: 4px;
-    -moz-appearance: none;
-    /* Firefox */
-    -webkit-appearance: none;
-    /* Safari and Chrome */
-    appearance: none;
-    height: 2em;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
-    background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: center;
-    padding-right: 2rem;
-    margin: 0 0.5rem; }
-  .content .about form input[type="submit"] {
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid #CCC;
-    border-radius: 4px;
-    -moz-appearance: none;
-    /* Firefox */
-    -webkit-appearance: none;
-    /* Safari and Chrome */
-    appearance: none;
-    height: 2em;
-    margin: 0 0.5rem; }
-
-@media only screen and (max-width: 600px) {
-  .content .about form {
-    line-height: 4rem; } }
+body.colorscheme-dark .content .about .emphasis {
+  filter: invert(100%); }
 
 blockquote {
   border-left: 5px solid cadetblue;
