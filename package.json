@@ -1,7 +1,7 @@
 {
     "scripts": {
         "watch": "snap run hugo server -w",
-        "publish": "snap run hugo --minify --cleanDestinationDir",
+        "publish": "snap run hugo --minify --cleanDestinationDir --destination 'docs'",
         "update:modules": "snap run hugo mod get -u"
     },
     "dependencies": {}
