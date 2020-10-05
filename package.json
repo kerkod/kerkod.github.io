@@ -1,7 +1,7 @@
 {
     "scripts": {
         "watch": "snap run hugo server -w",
-        "publish": "snap run hugo --minify --cleanDestinationDir --destination 'docs'",
+        "publish": "snap run hugo --minify --cleanDestinationDir --destination 'docs' && echo 'kerkod.fr' > docs/CNAME",
         "update:modules": "snap run hugo mod get -u"
     },
     "dependencies": {}
