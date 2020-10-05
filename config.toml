@@ -57,7 +57,7 @@ pygmentscodefencesguesssyntax = true
     custom_css = []
 
     # Custom JS
-    custom_js = ['js/accordion.js']
+    custom_js = []
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
