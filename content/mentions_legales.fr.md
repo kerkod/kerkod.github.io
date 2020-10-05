@@ -3,7 +3,7 @@ title = "Mentions légales"
 slug = "mentions-legales"
 +++
 
-> Kerkod EURL au capital de 5 000€  
+> KERKOD EURL au capital de XXXX€  (société en création)  
 > RCS XXX YYY ZZZ Nantes (société en création)  
 > Siège social : Nantes (société en création)  
 > Contact: bonjour@kerkod.fr  
