@@ -39,8 +39,11 @@ jobs:
 
     # Step 4 - Builds the site using the latest version of Hugo
     # Also specifies the theme we want to use
-    - name: Build
+    - name: Build theme
       run: hugo --theme=hugo-coder
+    
+    - name: Build SASS
+      run: hugo -D 
 
     # Step 5 - Create name file
     - name: Create cname file
