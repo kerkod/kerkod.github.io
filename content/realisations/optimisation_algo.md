@@ -5,8 +5,6 @@ description = "Développement d'algorithmes d'optimisation de tournées de véhi
 series = ["Theme", "Hugo"]
 +++
 
-*[<- Retour aux réalisations]({{< ref "portfolio" >}})*
-
 **Description** : optimiser le taux de remplissage des poids-lourds avec des contraintes "lâches"
 
 **Approche** : prototypage de la brique de calcul avec plusieurs types d'algorithmes :

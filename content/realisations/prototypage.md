@@ -1,17 +1,13 @@
 +++
 date = "2017-01-01"
-title = "Prototypage d'application métier"
+title = "CTO : Création d'un produit SaaS à haute valeur ajoutée"
 description = "Développement de MVP et itérations agiles"
 series = ["App"]
 +++
 
-*[<- Retour aux réalisations]({{< ref "portfolio" >}})*
-
 **Description** : Valider une hypothèse métier en mettant en place rapidement un prototype. Itérations successives jusqu'à arriver à une valeur métier satisfaisante.
 
-**Management** : Pilotage d'un équipe de développeurs Front/Back, **ateliers métiers** clients
-
-*** 
+**Management** : Pilotage d'un équipe de développeurs Front/Back, ateliers métiers clients, direction de projet de recherche avec écoles d'ingénieur
 
 **Technologies mises en oeuvre :**
 - PHP7 / Laravel
@@ -19,7 +15,7 @@ series = ["App"]
 - Angular / Ionic
 - NodeJS / socket.io
 
-![Ateliers métier](/images/ateliers.png "Ateliers métier")
+![Application B2P Optim](/images/fiftytruck.png "Application B2P Optim")
 
 > Ce travail a été valorisé dans le cadre du dispositif CIR (Crédit Impôt Recherche)
 

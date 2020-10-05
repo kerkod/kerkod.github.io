@@ -8,6 +8,8 @@ var option = {
         nodeAlign: 'left',
         focusNodeAdjacency: 'allEdges',
         nodeGap: 10,
+        left: '12%',
+        animation: false,
         data: 
         
 
@@ -17,7 +19,7 @@ var option = {
     "label": {
       "show": true,
       "color": "#FFF",
-      "fontWeight": "bold"
+      "position": "left"
     }
   },
   {
@@ -25,7 +27,7 @@ var option = {
     "label": {
       "show": true,
       "color": "#FFF",
-      "fontWeight": "bold"
+      "position": "left"
     }
   },
   {
@@ -33,7 +35,7 @@ var option = {
     "label": {
       "show": true,
       "color": "#FFF",
-      "fontWeight": "bold"
+      "position": "left"
     }
   },
   {
@@ -41,7 +43,7 @@ var option = {
     "label": {
       "show": true,
       "color": "#FFF",
-      "fontWeight": "bold"
+      "position": "left"
     }
   },
   {
@@ -49,196 +51,196 @@ var option = {
     "label": {
       "show": true,
       "color": "#FFF",
-      "fontWeight": "bold"
+      "position": "left"
     }
   },
   {
     "name": "PHP7 / Laravel",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "PHPUnit",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Python / Flask",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Java / Spring Boot",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "PostgreSQL",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "PostGIS",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "OSRM",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "MySQL / MariaDB",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "NodeJS / Express",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
-    "name": "Programmation par contrainte / Choco Solver",
+    "name": "Programmation par contrainte",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "API REST OpenAPI",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Cypress",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Microservices",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Wordpress",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Magento",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Ansible",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Jenkins",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Heroku",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "OVH Public Cloud",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Docker Swarm",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Linux / Debian",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Datadog",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Websocket / socket.io",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "RabbitMQ",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Eventstorming",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Git / Git flow",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   },
   {
     "name": "Agile / Kanban / Scrum",
     "label": {
       "show": true,
-      "color": "#FFF"
+      "color": "#FAFAFA"
     }
   }
 ]
@@ -324,12 +326,12 @@ var option = {
   },
   {
     "source": "Développement",
-    "target": "Programmation par contrainte / Choco Solver",
+    "target": "Programmation par contrainte",
     "value": 1
   },
   {
     "source": "Algorithmie",
-    "target": "Programmation par contrainte / Choco Solver",
+    "target": "Programmation par contrainte",
     "value": 3
   },
   {
@@ -463,34 +465,39 @@ var option = {
     levels: [{
                     depth: 0,
                     itemStyle: {
-                        color: '#23b6b6'
+                        color: '#c251ff',
+                        borderWidth: 0.5
                     },
                     lineStyle: {
-                        color: 'source',
-                        opacity: 0.7
+                        color: {
+                          type: 'linear',
+                          x: 0,
+                          y: 0,
+                          x2: 1,
+                          y2: 0,
+                          colorStops: [{
+                              offset: 0, color: '#c251ff' // color at 0% position
+                          }, {
+                              offset: 1, color: '#6f00ff' // color at 100% position
+                          }],
+                          global: false // false by default
+                      },
+                        opacity: 0.9
                     }
                 }, {
                     depth: 1,
                     itemStyle: {
-                        color: '#8A9DFF',
+                        color: '#6f00ff',
+                        borderWidth: 0.5
                     },
                     lineStyle: {
                         color: 'source',
                         opacity: 0.2
-                    }
-                }, {
-                    depth: 2,
-                    itemStyle: {
-                        color: '#D77DFF'
-                    },
-                    lineStyle: {
-                        color: 'source',
-                        opacity: 0.6
                     }
                 }]
         
     }
 };
 
-var myChart = echarts.init(document.getElementById('main'));
+var myChart = echarts.init(document.getElementById('sankey_competences'));
 myChart.setOption(option);

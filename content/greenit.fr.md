@@ -17,27 +17,26 @@ Le matériel IT (serveurs, postes clients, réseau & télécom) consomme beaucou
 
 Certains projets sont, par nature, positifs : l’informatique peut être un formidable levier pour créer des nouveaux usages, plus respectueux de l’homme et de son environnement.
 
-> Application d’un **tarif préférentiel** pour les projets à impact positif, entreprises à mission, ESUS, ESS, B Corp
+> Priorité donnée aux projets à impact positif, entreprises à mission, ESUS, ESS, B Corp
 
 
 ## Je suis fier de contribuer à un monde meilleur
 
-> **Minimisation de l’espace vacant dans les remorques des camions de marchandise** :
-> Co-fondateur et directeur technique de Fifty Truck, startup d’optimisation du remplissage des poids-lourds (FTK Logistics, 2017-2020)
+> **🚛 Réduction de l’espace vacant dans les camions de marchandise** :  
+> CTO Co-fondateur de Fifty Truck, startup excubée par le Groupe IDEA  
+> (FTK Logistics, 2017-2020)
 
 
-> **Calcul de l’impact de la rénovation thermique des habitations individuels dans le cadre des CEE** :
-> Responsable informatique d’Energie Perspective (EP, 2014-2017)
+> **🏡 Calcul de l’impact de la rénovation thermique des habitations (CEE)** :  
+> Responsable informatique d’Energie Perspective  
+> (EP, 2014-2017)
 
 
-> **Favorisation des modes de déplacements alternatifs au sein des entreprises** :
-> Lead développeur de l’application ADEME EvalPDE (ASI, 2013)
+> **🚎 Favorisation des modes de déplacements doux** :  
+> Lead développeur de l’application ADEME EvalPDE  
+> (ASI, 2013)
 
      
-> **Bilan carbone et plans d’actions des transporteurs routier de marchandise** :
-> Lead développeur de l’application de ADEME Objectif CO₂ (ASI, 2012)
-
-
-*Ce site est éco-conçu : utilisation d'un framwork de génération statique (Hugo), minimisation de la taille de chaque page (environ XX ko/page), hébergement dans un datacenter XXX*
-
-
+> **🚛 Bilan carbone des transporteurs routiers de marchandise** :  
+> Lead développeur de l’application de ADEME Objectif CO₂  
+> (ASI, 2012)

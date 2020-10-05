@@ -5,11 +5,7 @@ description = "Infrastructure serveur scalable et résiliente"
 series = ["DevOps"]
 +++
 
-*[<- Retour aux réalisations]({{< ref "portfolio" >}})*
-
 **Description** : Déployer une application complexe (multi-language) de manière scalable et résiliente: mise en place d'un cluster Docker Swarm.
-
-*** 
 
 **Technologies mises en oeuvre :**
 - Docker / Swarm

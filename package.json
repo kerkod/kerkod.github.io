@@ -1,7 +1,8 @@
 {
     "scripts": {
         "watch": "snap run hugo server -w",
-        "publish": "snap run hugo -D"
+        "publish": "snap run hugo -D",
+        "update:modules": "snap run hugo mod get -u"
     },
     "dependencies": {}
 }

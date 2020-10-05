@@ -1,0 +1,144 @@
+//Sticky nav
+.navigation {
+  position: sticky;
+  top: 0;
+  background-color: $bg-color;
+  border-bottom: 1px solid #EAEAEA;
+  z-index: 999;
+}
+.colorscheme-dark .navigation {
+  background-color: $bg-color-dark;
+  border-bottom: 1px solid #540082;
+}
+
+// Custom blockquotes
+blockquote {
+  border-left: 4px solid $bg-color-dark;
+  width: 70%;
+}
+body.colorscheme-dark blockquote {
+  border-left: 3px solid $link-color-dark !important;
+}
+
+// Links are underlined
+a, .content a {
+  position: relative;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: $link-color;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.colorscheme-dark a::before {
+  background-color: $link-color-dark;
+}
+
+// Footer
+footer {
+  font-size: 1.3rem;;
+}
+
+// Homepage
+.content .about {
+
+  h1 {
+    font-size: 5rem;
+    line-height: 7rem;
+
+    //Shadow
+    text-shadow: 1px 0 10px $bg-shadow-color;
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2.8rem;
+      line-height: 3rem;
+    }
+  }
+
+  .emphasis {
+    position: relative;
+    text-decoration: none;
+    color:white;
+    font-weight: inherit;
+
+    //Smooth GIF animation as background
+    background-image: url(/images/title.gif);
+    filter: contrast(140%) hue-rotate(140deg);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    //Shadow
+    text-shadow: 1px 0 10px $bg-shadow-color;
+
+    // No underline
+    &:hover::before {
+      visibility: hidden;
+    }
+  }
+}
+
+.colorscheme-dark .content .about h1 {
+  text-shadow: 1px 0 10px $bg-shadow-color-dark;
+  .emphasis {
+      //Smooth GIF animation as background
+      background-image: url(/images/title.gif);
+      filter: invert(100%);
+      background-size: cover;
+      color: transparent;
+      -moz-background-clip: text;
+      -webkit-background-clip: text;
+      text-shadow: 1px 0 10px #00000055;
+  }
+
+}
+
+// Hide sankey JS and display static picture when in mobile mode
+#sankey_competences {
+  display: block;
+  background-color: $bg-color-dark;
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+#sankey_competences_static {
+  display: none;
+  @media only screen and (max-width: 800px) {
+    display: block;
+  }
+}
+
+.colorscheme-light {
+  #sankey_competences, #sankey_competences_static {
+    box-shadow: 0px 0px 5px $bg-color-dark;
+  }
+}
+
+
+//General
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+body.colorscheme-dark {
+  font-weight: 200;
+}

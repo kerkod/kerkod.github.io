@@ -5,11 +5,7 @@ description = "The post demonstrates Twemoji support"
 series = ["DevOps", "Hugo"]
 +++
 
-*[<- Retour aux réalisations]({{< ref "portfolio" >}})*
-
 **Description** : Suivi de la santé de l'infrastructure serveur, alertes automatisées.
-
-*** 
 
 **Technologies mises en oeuvre :**
 - Datadog

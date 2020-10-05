@@ -3,22 +3,14 @@ title = "Mentions légales"
 slug = "mentions-legales"
 +++
 
-> FRAKETEK EURL au capital de 5 000€
->
-> RCS 823 093 208 Nantes
->
-> Siège social : 42 rue de l'Ouest 44100 Nantes
->
-> Contact: bonjour@fraketek.fr
+> Kerkod EURL au capital de 5 000€  
+> RCS XXX YYY ZZZ Nantes (société en création)  
+> Siège social : Nantes (société en création)  
+> Contact: bonjour@kerkod.fr  
+> Directeur de la publication : François Le Quéméner
 
 ## Hébergement du site
 
-> OVH SAS au capital de 10 069 020 €
->
-> RCS Lille Métropole 424 761 419 00045
->
-> Siège social : 2 rue Kellermann – 59100 Roubaix – France.
-
-## Cookies & données personnelles
-
-TODO
+> Github Pages  
+> 88 Colin P Kelly Junior Street, United States CA 94107 San Francisco  
+> (En cours de migration vers un hébergeur vert)

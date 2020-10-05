@@ -5,11 +5,7 @@ description = "Exécution de tâches asynchrones avec Python Celery"
 series = ["DevOps"]
 +++
 
-*[<- Retour aux réalisations]({{< ref "portfolio" >}})*
-
-**Description** : L'exécution des calculs lourds devait être réalisé de manière **séquentielle**, **asynchrone**, et en garantissant un résultat à jour même en cas de modifications pendant le calcul.
-
-*** 
+**Description** : Exécution de calculs lourds de manière **séquentielle**, **asynchrone**, en garantissant un résultat exact même en cas de modifications pendant le calcul.
 
 **Technologies mises en oeuvre :**
 - Python3 / Flask

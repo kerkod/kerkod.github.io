@@ -3,15 +3,14 @@ title = "Travaillons ensemble !"
 slug = "contact"
 +++
 
-📨 [bonjour@fraketek.fr](mailto:bonjour@fraketek.fr)
-
-
-{{< rawhtml >}}
-<i class="fab fa-linkedin" aria-hidden="true"></i>&nbsp;<a href="https://www.linkedin.com/in/francoislequemener/" target="_blank">Profil LinkedIn</a>
+> 📨 [bonjour@kerkod.fr](mailto:bonjour@kerkod.fr)
+>
+>{{< rawhtml >}}
+<i class="fab fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/francoislequemener/" target="_blank">&nbsp;&nbsp;Profil LinkedIn</a>
 {{< /rawhtml >}}
-
-🌍 Zone d'intervention : Nantes (44), télétravail partiel ou total possible.
-
-🕓 Disponibilité : quelques semaines
-
-🇬🇧 English happily spoken
+>
+>🌍 Zone d'intervention : Nantes (44), Paris, télétravail partiel ou total
+>
+>🕓 Disponibilité : quelques semaines
+>
+>🇬🇧 English happily spoken
