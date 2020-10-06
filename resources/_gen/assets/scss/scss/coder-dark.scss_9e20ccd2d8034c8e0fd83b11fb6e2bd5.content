@@ -1,6 +1,6 @@
 body.colorscheme-dark {
   color: #dadada;
-  background-color: #212121; }
+  background-color: #111111; }
   body.colorscheme-dark a {
     color: #c251ff; }
   body.colorscheme-dark h1,
@@ -24,7 +24,7 @@ body.colorscheme-dark {
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
     color: #dadada;
-    background-color: #212121; }
+    background-color: #111111; }
     body.colorscheme-auto a {
       color: #c251ff; }
     body.colorscheme-auto h1,
@@ -73,7 +73,7 @@ body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:f
 
 @media only screen and (max-width: 768px) {
   body.colorscheme-dark .navigation .navigation-list {
-    background-color: #212121;
+    background-color: #111111;
     border-top: solid 2px #424242;
     border-bottom: solid 2px #424242; } }
 
@@ -98,7 +98,7 @@ body.colorscheme-dark .navigation i {
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
   body.colorscheme-auto .navigation .navigation-list {
-    background-color: #212121;
+    background-color: #111111;
     border-top: solid 2px #424242;
     border-bottom: solid 2px #424242; } }
 

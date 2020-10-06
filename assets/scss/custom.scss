@@ -5,7 +5,16 @@
   background-color: $bg-color;
   border-bottom: 1px solid #EAEAEA;
   z-index: 999;
+
+  .navigation-title {
+    font-weight: 600;
+  }
 }
+.navigation a, .navigation span {
+  font-weight: 500;
+}
+
+
 .colorscheme-dark .navigation {
   background-color: $bg-color-dark;
   border-bottom: 1px solid #540082;
@@ -15,6 +24,7 @@
 blockquote {
   border-left: 4px solid $bg-color-dark;
   width: 70%;
+  font-weight: 300;
 }
 body.colorscheme-dark blockquote {
   border-left: 3px solid $link-color-dark !important;
@@ -50,14 +60,38 @@ a:hover::before {
 
 // Footer
 footer {
-  font-size: 1.3rem;;
+  font-size: 1.5rem;;
 }
 
 // Homepage
+.centered {
+  flex-direction: column;
+
+
+  .cta {
+    
+    margin-top: 2em;
+
+    a {
+      color: $bg-color;
+      font-size: 0.9em;
+      background-color: $link-color;
+      padding:0.5em;
+      border-radius: 4px;
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    a::before {
+      visibility: hidden;
+    }
+  }
+
+}
 .content .about {
 
   h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 7rem;
   }
 
@@ -90,7 +124,6 @@ footer {
 }
 
 .colorscheme-dark .content .about h1 {
-  text-shadow: 1px 0 10px $bg-shadow-color-dark;
   .emphasis {
       //Smooth GIF animation as background
       background-image: url(/images/title.gif);
@@ -99,7 +132,6 @@ footer {
       color: transparent;
       -moz-background-clip: text;
       -webkit-background-clip: text;
-      text-shadow: 1px 0 10px #00000055;
   }
 
 }
@@ -130,10 +162,19 @@ footer {
 body {
   font-family: Lato, Helvetica, sans-serif;
   font-size: 1.8em;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5em;
 }
-
 body.colorscheme-dark {
   font-weight: 200;
+}
+b, strong {
+  font-weight: 400;
+}
+.wrapper {
+  min-height: 98vh;
+}
+h2 {
+  font-size: 2.4rem;
+  margin: 5.4rem 0 2.2rem 0;
 }

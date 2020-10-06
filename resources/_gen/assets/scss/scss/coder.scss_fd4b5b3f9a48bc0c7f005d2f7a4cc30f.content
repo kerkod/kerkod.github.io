@@ -8,7 +8,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  color: #212121;
+  color: #0D0D0D;
   background-color: #FAFAFA;
   font-family: Merriweather, Georgia, serif;
   font-size: 1.6em;
@@ -108,7 +108,7 @@ code {
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #E0E0E0;
-  color: #212121; }
+  color: #0D0D0D; }
 
 blockquote {
   border-left: 2px solid #E0E0E0;
@@ -257,7 +257,7 @@ img.emoji {
     .list ul li .title {
       font-size: 1.8rem;
       flex: 2;
-      color: #212121;
+      color: #0D0D0D;
       font-family: Lato, Helvetica, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
@@ -291,7 +291,7 @@ img.emoji {
         display: inline-block;
         position: relative; }
         .centered .about ul li a {
-          color: #212121;
+          color: #0D0D0D;
           text-transform: uppercase;
           margin-left: 1.0rem;
           margin-right: 1.0rem;
@@ -328,7 +328,7 @@ img.emoji {
     font-family: Lato, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 6.0rem;
-    color: #212121; }
+    color: #0D0D0D; }
   .navigation a:hover, .navigation a:focus {
     color: #8b00d6; }
   .navigation .navigation-title {
@@ -372,7 +372,7 @@ img.emoji {
         display: none; } }
     @media only screen and (max-width: 768px) {
       .navigation .navigation-list .menu-separator {
-        border-top: 2px solid #212121;
+        border-top: 2px solid #0D0D0D;
         margin: 0 8.0rem; }
         .navigation .navigation-list .menu-separator span {
           display: none; } }
@@ -398,7 +398,7 @@ img.emoji {
         font-size: 2.4rem;
         font-weight: 400; } }
   .navigation i {
-    color: #212121;
+    color: #0D0D0D;
     cursor: pointer; }
     .navigation i:hover, .navigation i:focus {
       color: #8b00d6; }
@@ -437,14 +437,20 @@ img.emoji {
   background-color: #FAFAFA;
   border-bottom: 1px solid #EAEAEA;
   z-index: 999; }
+  .navigation .navigation-title {
+    font-weight: 600; }
+
+.navigation a, .navigation span {
+  font-weight: 500; }
 
 .colorscheme-dark .navigation {
-  background-color: #212121;
+  background-color: #111111;
   border-bottom: 1px solid #540082; }
 
 blockquote {
-  border-left: 4px solid #212121;
-  width: 70%; }
+  border-left: 4px solid #111111;
+  width: 70%;
+  font-weight: 300; }
 
 body.colorscheme-dark blockquote {
   border-left: 3px solid #c251ff !important; }
@@ -476,10 +482,25 @@ a:hover::before {
   background-color: #c251ff; }
 
 footer {
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
+
+.centered {
+  flex-direction: column; }
+  .centered .cta {
+    margin-top: 2em; }
+    .centered .cta a {
+      color: #FAFAFA;
+      font-size: 0.9em;
+      background-color: #8b00d6;
+      padding: 0.5em;
+      border-radius: 4px;
+      font-weight: 400;
+      text-decoration: none; }
+    .centered .cta a::before {
+      visibility: hidden; }
 
 .content .about h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 7rem; }
 
 @media only screen and (max-width: 600px) {
@@ -501,20 +522,17 @@ footer {
   .content .about .emphasis:hover::before {
     visibility: hidden; }
 
-.colorscheme-dark .content .about h1 {
-  text-shadow: 1px 0 10px #FAFAFA55; }
-  .colorscheme-dark .content .about h1 .emphasis {
-    background-image: url(/images/title.gif);
-    filter: invert(100%);
-    background-size: cover;
-    color: transparent;
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-    text-shadow: 1px 0 10px #00000055; }
+.colorscheme-dark .content .about h1 .emphasis {
+  background-image: url(/images/title.gif);
+  filter: invert(100%);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text; }
 
 #sankey_competences {
   display: block;
-  background-color: #212121; }
+  background-color: #111111; }
   @media only screen and (max-width: 800px) {
     #sankey_competences {
       display: none; } }
@@ -524,15 +542,25 @@ footer {
     #sankey_competences_static {
       display: block; } }
 .colorscheme-light #sankey_competences, .colorscheme-light #sankey_competences_static {
-  box-shadow: 0px 0px 5px #212121; }
+  box-shadow: 0px 0px 5px #111111; }
 
 body {
   font-family: Lato, Helvetica, sans-serif;
   font-size: 1.8em;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5em; }
 
 body.colorscheme-dark {
   font-weight: 200; }
+
+b, strong {
+  font-weight: 400; }
+
+.wrapper {
+  min-height: 98vh; }
+
+h2 {
+  font-size: 2.4rem;
+  margin: 5.4rem 0 2.2rem 0; }
 
 /*# sourceMappingURL=coder.css.map */
