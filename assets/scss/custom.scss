@@ -59,9 +59,6 @@ footer {
   h1 {
     font-size: 5rem;
     line-height: 7rem;
-
-    //Shadow
-    text-shadow: 1px 0 10px $bg-shadow-color;
   }
 
   @media only screen and (max-width: 600px) {
@@ -84,8 +81,6 @@ footer {
     color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
-    //Shadow
-    text-shadow: 1px 0 10px $bg-shadow-color;
 
     // No underline
     &:hover::before {
