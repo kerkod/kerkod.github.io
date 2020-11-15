@@ -11,6 +11,4 @@ slug = "contact"
 >
 >🌍 Zone d'intervention : Nantes (44), Paris, télétravail partiel ou total
 >
->🕓 Disponibilité : dans quelques semaines
->
 >🇬🇧 English happily spoken

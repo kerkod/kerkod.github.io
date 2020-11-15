@@ -3,9 +3,10 @@ title = "Mentions légales"
 slug = "mentions-legales"
 +++
 
-> KERKOD EURL au capital de XXXX€  (société en création)  
-> RCS XXX YYY ZZZ Nantes (société en création)  
-> Siège social : Nantes (société en création)  
+> KERKOD  
+> EURL au capital de 5 000€  
+> RCS 890 914 807 Nantes  
+> Siège social : 42 rue de l'Ouest 44100 Nantes  
 > Contact: bonjour@kerkod.fr  
 > Directeur de la publication : François Le Quéméner
 

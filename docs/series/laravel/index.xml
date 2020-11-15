@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on KERKOD</title><link>https://kerkod.fr/series/laravel/</link><description>Recent content in Laravel on KERKOD</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kerkod.fr/series/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick guide: install Laravel 8 + Docker</title><link>https://kerkod.fr/posts/20201013-laravel-install/</link><pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate><guid>https://kerkod.fr/posts/20201013-laravel-install/</guid><description>TODO: fix github gists Install Laravel 8 locally
+docker run --rm --interactive --tty --volume $PWD:/app composer create-project --prefer-dist laravel/laravel laravel-jetstream-test Add Docker folder to gather Docker related stuff:
+mkdir docker &amp;amp;&amp;amp; mkdir docker/pgsql_dump &amp;amp;&amp;amp; mkdir docker/pgsql_volume cd docker &amp;amp;&amp;amp; wget https://gist.github.com/frinux/027cf804b1ee8e2b993019c33b2a23e4 Create Dockerfile:
+wget https://gist.github.com/frinux/56c5701d0d47558ad207e44212ce18ac Create docker-compose.yml:
+wget https://gist.github.com/frinux/90788a8da5e86c71212303b4f907dedc Fix Docker files owner (TODO: run Docker as local user)
+TODO Launch Docker:
+docker-compose up --build Notes Don&amp;rsquo;t forget that composer files are installed locally.</description></item></channel></rss>
