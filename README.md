@@ -1,5 +1,8 @@
 # KERKOD EURL website
 
+## Install Hugo
+```snap install hugo --channel=extended```
+
 ## Hugo commands
 
 Launch server watching for changes
