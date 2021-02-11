@@ -151,10 +151,10 @@ pygmentscodefencesguesssyntax = true
             weight = 3
             url = "portfolio/"
 
-#            [[languages.fr.menu.main]]
-#            name = "Blog"
-#            weight = 4
-#            url = "posts/"
+            [[languages.fr.menu.main]]
+            name = "Articles"
+            weight = 4
+            url = "articles/"
 
             [[languages.fr.menu.main]]
             name = "A propos"
