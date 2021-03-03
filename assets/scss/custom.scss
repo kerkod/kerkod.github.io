@@ -157,6 +157,17 @@ footer {
   }
 }
 
+// Profile picture
+.profile {
+  float: right;
+  width: 25%;
+  margin: 0 0 5rem 5rem;
+  border-radius: 50%;
+  shape-outside: margin-box;
+  border: 1px solid #FFF;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 //General
 body {

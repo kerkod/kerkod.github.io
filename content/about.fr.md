@@ -3,6 +3,9 @@ title = "Bonjour, je suis François"
 slug = "a-propos"
 +++
 
+{{< profile >}}{{< /profile >}}
+
+
 Ingénieur arts et métier (ICAM 2009) spécialisé dans le web depuis 11 ans, j'ai créé la société Kerkod pour mettre mes [expériences]({{< ref "portfolio" >}}) et [compétences]({{< ref "services" >}}) au service de vos projets.
 
 ## Professionnel éthique
